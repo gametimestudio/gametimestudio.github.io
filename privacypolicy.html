@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name='viewport' content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no'>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    
+    <title>Privacy Policy</title>
+    
+    <link href="/css/bundle.css" rel="stylesheet">
+    <script src="/js/fontfaceobserver.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <script>
+    if (sessionStorage.getItem('fonts-loaded')) {
+      document.documentElement.classList.add('fonts-loaded')
+    } else {
+      var roboto = new FontFaceObserver('Roboto')
+      var slab   = new FontFaceObserver('Roboto Slab')
+      Promise.all([roboto.load(), slab.load()]).then(function() {
+        document.documentElement.classList.add('fonts-loaded')
+        sessionStorage.setItem('fonts-loaded', true)
+      })
+    }
+    </script>
+  </head>
+  <body>
+    <main class="site__content">
+      <div class="container">
+        <h1 class="bg-black white p2">Privacy Policy</h1>
+        <div class="mb5">
+          <h2>&nbsp;</h2>
+<p>This Privacy Policy applies to our online mobile products and services (collectively, the “Services”) as well as any website owned or controlled by us. BY USING ANY OF OUR SITES OR OUR ONLINE MOBILE PRODUCTS AND SERVICES, YOU AGREE TO ALL OF THE TERMS AND CONDITIONS OF THIS PRIVACY POLICY, INCLUDING ANY CHANGES TO IT.</p>
+<h4>Targeted Advertising</h4>
+<p>We may use third-party advertising companies to serve you targeted ads on our behalf, and we may share personally identifiable information that we collect about you with those third party companies, and they may also collect personally identifiable information about you as described in this Privacy Policy. These companies provide ads that are relevant to you based on data that is collected or content on our Site that you have been viewing. These companies may employ cookies both to measure advertising effectiveness and also to collect data related to your activity on our Sites. That data may include your browsing activity, for example what web pages you may have visited on our Site; device and browser information, which is technical information about the device or browser you use to access or site; data about the ads that have been served (or an attempt made to serve) to you, including things like how many times an ad has been served to you, what page the ad appeared on and whether you clicked on or otherwise interacted with the ad; and, your IP address. We have no access to or control over these cookies once we have given permission for third parties set cookies for advertising.</p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="/js/commons.bundle.js"></script>
+    <script src="/js/bundle.js"></script>
+  </body>
+
+</html>
